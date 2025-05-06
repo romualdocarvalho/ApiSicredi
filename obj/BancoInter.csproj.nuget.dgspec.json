@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\BancoInter\\BancoInter.csproj": {}
+  },
+  "projects": {
+    "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\BancoInter\\BancoInter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\BancoInter\\BancoInter.csproj",
+        "projectName": "BancoInter",
+        "projectPath": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\BancoInter\\BancoInter.csproj",
+        "packagesPath": "C:\\Users\\Densen13-\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\BancoInter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Densen13-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Dados\\Dados.csproj": {
+                "projectPath": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Dados\\Dados.csproj"
+              },
+              "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Log\\Log.csproj": {
+                "projectPath": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Log\\Log.csproj"
+              },
+              "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Negocios\\Negocios.csproj": {
+                "projectPath": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Negocios\\Negocios.csproj"
+              },
+              "C:\\Projetos\\Fontes\\Controller\\VS_2.5.234\\prj.Vision.Controller\\Vision.Controller.Negocios\\Vision.Controller.Negocios.csproj": {
+                "projectPath": "C:\\Projetos\\Fontes\\Controller\\VS_2.5.234\\prj.Vision.Controller\\Vision.Controller.Negocios\\Vision.Controller.Negocios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Dados\\Dados.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Dados\\Dados.csproj",
+        "projectName": "Dados",
+        "projectPath": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Dados\\Dados.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Log\\Log.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Log\\Log.csproj",
+        "projectName": "Log",
+        "projectPath": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Log\\Log.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Mailer\\Mailer.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Mailer\\Mailer.csproj",
+        "projectName": "Mailer",
+        "projectPath": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Mailer\\Mailer.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Negocios\\Negocios.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Negocios\\Negocios.csproj",
+        "projectName": "Negocios",
+        "projectPath": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Negocios\\Negocios.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Dados\\Dados.csproj": {
+                "projectPath": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Dados\\Dados.csproj"
+              },
+              "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Log\\Log.csproj": {
+                "projectPath": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Log\\Log.csproj"
+              },
+              "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Mailer\\Mailer.csproj": {
+                "projectPath": "C:\\Projetos\\Fontes\\Aplicativos\\Vs_Integracao\\Mailer\\Mailer.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Projetos\\Fontes\\Controller\\VS_2.5.234\\prj.Vision.Controller\\Vision.Controller.Negocios\\Vision.Controller.Negocios.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Fontes\\Controller\\VS_2.5.234\\prj.Vision.Controller\\Vision.Controller.Negocios\\Vision.Controller.Negocios.csproj",
+        "projectName": "Vision.Controller.Negocios",
+        "projectPath": "C:\\Projetos\\Fontes\\Controller\\VS_2.5.234\\prj.Vision.Controller\\Vision.Controller.Negocios\\Vision.Controller.Negocios.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyVersion>1.0.8</AssemblyVersion>
+    <FileVersion>1.0.8</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DAL\**" />
+    <Compile Remove="Model\**" />
+    <Compile Remove="Post\**" />
+    <EmbeddedResource Remove="DAL\**" />
+    <EmbeddedResource Remove="Model\**" />
+    <EmbeddedResource Remove="Post\**" />
+    <None Remove="DAL\**" />
+    <None Remove="Model\**" />
+    <None Remove="Post\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dados\Dados.csproj" />
+    <ProjectReference Include="..\Log\Log.csproj" />
+    <ProjectReference Include="..\Negocios\Negocios.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\..\Program Files\IIS\Microsoft Web Deploy V3\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Vision.Controller.Dados">
+      <HintPath>..\..\..\Controller\VS_2.5.243\prj.Vision.Controller\Vision.Controller.Dados\bin\Debug\Vision.Controller.Dados.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
